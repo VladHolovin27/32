@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #333333;
+}
+
+.section-title__text {
+    font-size: 24px;
+    font-family: "Kaushan Script";
+}
+
+.section-title__title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-variant: small-caps;
+    margin-bottom: 34px;
+}
+
+.section-title__underline {
+    margin: auto;
+    display: block;
+    width: 60px;
+    background-color: #F38181;
+    height: 4px;
+}
+
+.team__section-text {
+    margin-top: 35px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    color: #6B6B6B;
+    margin-bottom: 27px;
+}
+
+.team__gallery {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__gallery-title {
+   text-transform: uppercase;
+   font-family: "Montserrat";
+   font-weight: 400;
+   text-align: center;
+   font-size: 14px;
+    margin-top: 27px;
+   margin-bottom: 14px;
+   color:  #333333;
+}
+
+.team__gallery-text {
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+    color: #706b6b;
+}
+
+.top-menu__button:hover {
+    border-bottom: 1px solid red;
+}
